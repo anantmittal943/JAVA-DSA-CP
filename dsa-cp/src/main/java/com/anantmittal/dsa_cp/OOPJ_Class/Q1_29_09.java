@@ -36,6 +36,10 @@ class Sports_KIET_Society extends Student_29 {
     }
 }
 
+class NewClass extends Student_29 {
+
+}
+
 public class Q1_29_09 {
     public static void main(String[] args) {
         Student_29 student1 = new Sports_KIET_Society();
@@ -44,5 +48,8 @@ public class Q1_29_09 {
         Student_29 student2 = new Sports_KIET_Society("John Doe");
         System.out.println(student2.getName());
         student2.SportsClub();
+
+        Student_29 xyz = new NewClass();
+        System.out.println(xyz.getName());
     }
 }

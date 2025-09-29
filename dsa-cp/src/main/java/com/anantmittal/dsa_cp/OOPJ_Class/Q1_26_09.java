@@ -6,11 +6,11 @@ class LowMarksException extends Exception {
     }
 }
 
-class Student {
+class Student_26 {
     private final String name;
     private final int marks;
 
-    public Student(String name, int marks) {
+    public Student_26(String name, int marks) {
         this.name = name;
         this.marks = marks;
         System.out.println("Student object created for " + this.name + ".");
@@ -34,7 +34,7 @@ public class Q1_26_09 {
         System.out.println("--- Program Start ---");
 
         try {
-            Student student1 = new Student("Alice", 85);
+            Student_26 student1 = new Student_26("Alice", 85);
             student1.display();
         } catch (LowMarksException e) {
             System.err.println("\nCaught Exception: " + e.getMessage());
@@ -43,7 +43,7 @@ public class Q1_26_09 {
         System.out.println("\n--- Next Student ---");
 
         try {
-            Student student2 = new Student("Bob", 38);
+            Student_26 student2 = new Student_26("Bob", 38);
             student2.display();
         } catch (LowMarksException e) {
             System.err.println("\nCaught Exception for Bob: " + e.getMessage());
